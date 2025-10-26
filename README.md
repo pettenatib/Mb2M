@@ -9,6 +9,8 @@ The program consists of two smaller individual programs:
 Included as well is the required user configurable file:
     the file containing the MIDI mappings (midi_map.json) and a config file to store the users MIDI in and out port (config.toml)
 
+There is also a mb2m_lib.py that holds necessay code for both programs.
+
 ### Dependencies
 1. python3
 2. simple_term_menu
