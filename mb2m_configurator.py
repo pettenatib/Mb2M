@@ -148,7 +148,7 @@ def set_MIDI_output():
     config = read_config('config.toml')
     ports = get_out_ports()
 
-    menu = TerminalMenu(ports, title="Select a MIDI Input Port")
+    menu = TerminalMenu(ports, title="Select a MIDI Output Port")
     choice_index = menu.show()
 
     if choice_index is not None:
