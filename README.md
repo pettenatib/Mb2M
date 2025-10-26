@@ -19,7 +19,7 @@ There is also a mb2m_lib.py that holds necessay code for both programs.
 5. tomli_w
 
 ### Implementation
-mb2m.py is intended to ran as a headless MIDI server within an OS. The program is build almost entirely with python allowing it to be cross-platform and should run on Mac, Windows and Linux. However only MacOS has been tested at this point. The program can be run on a normal desktop or it can conversely be used on a Raspberry Pi or another SBC inconjunction with a MIDI interface with an in and out port to act as a pseudo hardware device. In the programs current state the latter option would be cumbersome as the SBC would need to be interfaced via keyboard and monitor, SSH, or some other form of interfacing.
+mb2m.py is intended to run as a headless MIDI server within an OS. The program is build almost entirely with python allowing it to be cross-platform and should run on Mac, Windows and Linux. However only MacOS has been tested at this point. The program can be run on a normal desktop or it can conversely be used on a Raspberry Pi or another SBC inconjunction with a MIDI interface with an in and out port to act as a pseudo hardware device. In the programs current state the latter option would be cumbersome as the SBC would need to be interfaced via keyboard and monitor, SSH, or some other form of interfacing.
 
 ## Program Operation
 Both the config and midi_map files are required for both the operation of the main mb2m server as well as the configurator. 
