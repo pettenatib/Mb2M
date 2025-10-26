@@ -1,0 +1,4 @@
+[MIDI]
+midi_input_port = ""
+midi_output_port = ""
+midi_aux_in_port = ""
