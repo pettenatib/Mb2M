@@ -61,7 +61,7 @@ And in English:
                       |------------- NOTEON Ch1     C4     vel 64 
                       |------------- NOTEON Ch1     E4     vel 64 
                       |------------- NOTEON Ch1     G4     vel 64 
-    ```
+```
 
 Only the note value or byte2 will change.
 
